@@ -3,6 +3,7 @@
   --secondary-color: #fe93b9;
   --heading-font-family: "Bitter", serif;
   --default-font-family: "Sono", sans-serif;
+  --default-transition: all 175ms ease-in-out;
 }
 
 h1,
@@ -61,7 +62,7 @@ p {
   background: white;
   border: 1px solid var(--secondary-color);
   color: var(--secondary-color);
-  transition: all 175ms ease-in-out;
+  transition: var(--default-transition);
 }
 
 .btn-branding-outline {
@@ -76,7 +77,7 @@ p {
 .btn-branding-outline:hover {
   background: var(--secondary-color);
   color: white;
-  transition: all 175ms ease-in-out;
+  transition: var(--default-transition);
 }
 
 .project-description {
@@ -99,4 +100,26 @@ p {
     padding: 0;
     text-align: center;
   }
+}
+
+.social-media-icon {
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: white;
+  padding: 10px 14px;
+  font-size: 40px;
+  border-radius: 50%;
+  transition: var(--default-transition);
+}
+
+.social-media-icon:hover {
+  background-color: var(--secondary-color);
+  color: white;
+  cursor: pointer;
+  transition: var(--default-transition);
+}
+
+.project-image {
+  width: 600px;
+  height: 600px;
 }
