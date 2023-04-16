@@ -128,3 +128,12 @@ p {
   background-color: var(--secondary-color);
   color: white;
 }
+
+.homepage-footer {
+  text-align: center;
+}
+
+.homepage-footer a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
