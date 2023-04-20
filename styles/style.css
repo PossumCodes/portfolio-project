@@ -132,6 +132,7 @@ p {
 
   .about-img {
     width: 50%;
+    justify-content: center;
   }
 
   .hero {
