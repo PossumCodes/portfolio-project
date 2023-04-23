@@ -210,12 +210,6 @@ footer .contact-box p {
   }
 }
 
-@media (min-width 1200px) {
-  footer .contact-box {
-    padding: 30px 500px;
-  }
-}
-
 .social-media-icon {
   margin: 0 20px;
   color: var(--secondary-color);
